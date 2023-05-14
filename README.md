@@ -12,12 +12,12 @@ Dalam proyek ini, saya akan membangun model risiko kredit untuk memprediksi risi
 ### Inspirasi:
 Pada akhir kasus ini, akan dapat menjawab pertanyaan-pertanyaan di bawah ini.
 
-- Preprocessing Data; persiapan data; dan visualisasi data
-- Fitur Teknik dan fitur pilihan
-- Pengembangan Model
-- Evaluasi Model
-- Bagaimana kemungkinan pembayaran gagal bayar bervariasi menurut kategori variabel demografis yang berbeda?
-- Variabel mana yang merupakan prediktor terkuat dari pembayaran gagal bayar?
+1. Preprocessing Data; persiapan data; dan visualisasi data
+2. Fitur Teknik dan fitur pilihan
+3. Pengembangan Model
+4. Evaluasi Model
+5. Bagaimana kemungkinan pembayaran gagal bayar bervariasi menurut kategori variabel demografis yang berbeda?
+6. Variabel mana yang merupakan prediktor terkuat dari pembayaran gagal bayar?
 
 ### Variables:
 Deskripsi variabel dalam himpunan data:
