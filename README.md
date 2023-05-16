@@ -47,3 +47,19 @@ Deskripsi variabel dalam himpunan data:
 - PAY_AMT5: Amount of previous payment in May, 2005 (NT dollar)
 - PAY_AMT6: Amount of previous payment in April, 2005 (NT dollar)
 - default.payment.next.month: Default payment (1=yes, 0=no)
+
+#### 2) Visualisasi Data:
+
+##### Variabel Target:
+
+Kami akan memvisualisasikan kolom target "default" untuk mengetahui seberapa implance (keseimbangan) data
+![image](https://github.com/JuanFakhri/Default_Dataset_Klien_Kartu_Kredit/assets/61308533/24969671-b117-4d92-a033-c4e7bc09d983)
+Data tersebut cukup tidak seimbang dimana sekitar 22% klien akan gagal bayar bulan depan.
+
+##### Variabel SEX:
+![image](https://github.com/JuanFakhri/Default_Dataset_Klien_Kartu_Kredit/assets/61308533/fc30c9da-2731-4348-b8a0-d1efee0675ff)
+![image](https://github.com/JuanFakhri/Default_Dataset_Klien_Kartu_Kredit/assets/61308533/dfdcfeb4-fa7a-40be-92df-e69a25c2e0ca)
+
+- Lebih banyak klien wanita memiliki kartu kredit daripada klien pria.
+- 24% klien pria melakukan penipuan kartu kredit sedangkan rasio untuk wanita sekitar 20%
+
