@@ -12,12 +12,11 @@ Dalam proyek ini, saya akan membangun model risiko kredit untuk memprediksi risi
 ### Inspirasi:
 Pada akhir kasus ini, akan dapat menjawab pertanyaan-pertanyaan di bawah ini.
 
-1. Preprocessing Data; persiapan data; dan visualisasi data
-2. Fitur Teknik dan fitur pilihan
-3. Pengembangan Model
-4. Evaluasi Model
-5. Bagaimana kemungkinan pembayaran gagal bayar bervariasi menurut kategori variabel demografis yang berbeda?
-6. Variabel mana yang merupakan prediktor terkuat dari pembayaran gagal bayar?
+- Preprocessing Data; persiapan data; dan visualisasi data
+- Fitur Teknik dan fitur pilihan
+- Pengembangan Model
+- Evaluasi Model
+- Variabel mana yang merupakan prediktor terkuat dari pembayaran gagal bayar?
 
 ### Variables:
 Deskripsi variabel dalam himpunan data:
@@ -62,4 +61,26 @@ Data tersebut cukup tidak seimbang dimana sekitar 22% klien akan gagal bayar bul
 
 - Lebih banyak klien wanita memiliki kartu kredit daripada klien pria.
 - 24% klien pria melakukan penipuan kartu kredit sedangkan rasio untuk wanita sekitar 20%
+
+##### VARIABEL PENDIDIKAN:
+![image](https://github.com/JuanFakhri/Default_Dataset_Klien_Kartu_Kredit/assets/61308533/8def1da7-73d7-40d8-a518-b98781719d31)
+![image](https://github.com/JuanFakhri/Default_Dataset_Klien_Kartu_Kredit/assets/61308533/e82fc39a-be16-44ae-9166-a866ce67adb3)
+
+- Mahasiswa merupakan kelompok dengan jumlah nasabah terbanyak yang menggunakan kartu kredit (47%)
+- Siswa SMA adalah kelompok yang memiliki kasus penipuan tertinggi (25%), diikuti oleh mahasiswa (23%)
+
+##### VARIABEL STATUS PERNIKAHAN:
+![image](https://github.com/JuanFakhri/Default_Dataset_Klien_Kartu_Kredit/assets/61308533/e834ab62-9fea-4ffe-96ff-899002db9abd)
+![image](https://github.com/JuanFakhri/Default_Dataset_Klien_Kartu_Kredit/assets/61308533/9b60b488-09df-4cc1-8ba5-e1bd33e10d22)
+
+- Single adalah kelompok dengan jumlah nasabah terbanyak yang menggunakan kartu kredit (53%)
+- Orang yang sudah menikah adalah kelompok yang memiliki kasus penipuan tertinggi (30%)
+
+##### VARIABEL USIA:
+![image](https://github.com/JuanFakhri/Default_Dataset_Klien_Kartu_Kredit/assets/61308533/5bf87b78-51c1-4956-aa6c-958e3864b91c)
+![image](https://github.com/JuanFakhri/Default_Dataset_Klien_Kartu_Kredit/assets/61308533/4dcefa22-8112-4584-a811-e7c0f1cce77f)
+- Histogram condong ke kanan yang berarti pelanggan yang lebih tua cenderung tidak menggunakan kartu kredit
+- Klien utama berusia 30-an
+- Pelanggan berusia 30-an juga paling rentan terhadap penipuan kredit
+
 
