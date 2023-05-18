@@ -83,4 +83,12 @@ Data tersebut cukup tidak seimbang dimana sekitar 22% klien akan gagal bayar bul
 - Klien utama berusia 30-an
 - Pelanggan berusia 30-an juga paling rentan terhadap penipuan kredit
 
+##### LIMIT_BAL VARIABEL:
+![image](https://github.com/JuanFakhri/Default_Dataset_Klien_Kartu_Kredit/assets/61308533/89d5f4f4-3bac-43a9-988c-0dec25b6a4c3)
+
+##### Jumlah tagihan dan Jumlah pembayaran sebelumnya
+![image](https://github.com/JuanFakhri/Default_Dataset_Klien_Kartu_Kredit/assets/61308533/3d78cc9e-45f5-414a-973f-7d8bf9903a6c)
+
+##### Analisis Korelasi:
+![image](https://github.com/JuanFakhri/Default_Dataset_Klien_Kartu_Kredit/assets/61308533/7451d943-3ef2-4a05-956d-c3fa437a3f33)
 
