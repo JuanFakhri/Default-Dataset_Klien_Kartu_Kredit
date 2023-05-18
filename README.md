@@ -47,7 +47,6 @@ Deskripsi variabel dalam himpunan data:
 - PAY_AMT6: Amount of previous payment in April, 2005 (NT dollar)
 - default.payment.next.month: Default payment (1=yes, 0=no)
 
-#### 2) Visualisasi Data:
 
 ##### Variabel Target:
 
@@ -91,4 +90,26 @@ Data tersebut cukup tidak seimbang dimana sekitar 22% klien akan gagal bayar bul
 
 ##### Analisis Korelasi:
 ![image](https://github.com/JuanFakhri/Default_Dataset_Klien_Kartu_Kredit/assets/61308533/7451d943-3ef2-4a05-956d-c3fa437a3f33)
+
+Korelasinya tinggi antara PAY_0,2,3,4,5,6 dan BILL_AMT1,2,3,4,5,6.
+
+#### Compare Performance Models:
+
+![image](https://github.com/JuanFakhri/Default_Dataset_Klien_Kartu_Kredit/assets/61308533/fda630d0-8e44-469f-b356-61348bde3595)
+
+![image](https://github.com/JuanFakhri/Default_Dataset_Klien_Kartu_Kredit/assets/61308533/e3459f81-7d1a-4428-8f96-3df7a5479cd7)
+
+# Kesimpulan:
+
+- Dalam proyek ini, pertama-tama kami memeriksa ketidakseimbangan data, memvisualisasikan feaure dan menyelidiki hubungan antara fitur yang berbeda untuk menemukan prediktor terkuat dari pembayaran default
+
+- Kami kemudian menjalankan model 5 ML yang berbeda untuk menemukan model terbaik untuk mendeteksi default kredit:
+- Model logistik dengan akurasi 68,08%,
+
+- Decision_tree model dengan akurasi 72,83%,
+- Randome_forest model dengan akurasi 79,35%,
+- Model XGboost dengan akurasi 81,35%,
+- Model hyperparameter XGboost dengan akurasi 80,58%
+
+Di antara semua model ML yang kami gunakan untuk memprediksi kartu kredit default, XGboost adalah model terbaik dengan skor akurasi tertinggi dan Variabel yang merupakan prediktor terkuat dari pembayaran gagal bayar adalah default.payment.next.month 
 
